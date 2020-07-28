@@ -7,40 +7,54 @@
 html {
   font-family: $primary-font;
   font-weight: $regular-weight;
-  font-size: 16px;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px;
+}
+// .page {
+
+// }
+.title {
+  text-align: center;
+  color: $primary-color;
 }
 
 .cards {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .pokemon {
-  border: 1px solid red;
-  width: 200px;
-  height: 275px;
+  border: 3px solid $dark-color;
+  border-radius: 30px;
+  width: 225px;
+  height: 330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px;
+  padding-bottom: 15px;
+  // background-image: url(https://i.ebayimg.com/images/g/CLAAAOxyRhBSq3b5/s-l300.jpg);
+  // background-size: cover;
 }
-.pokemon__name  {
+
+.pokeball {
+  width: 30px;
+  height: 30px;
+}
+.pokemon__description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-weight: $bold-weight;
   color: $primary-color;
   text-transform: uppercase;
-  margin: 0;
-  text-align: center;
 }
-
 .pokemon__types {
   display: flex;
   justify-content: center;
@@ -52,14 +66,17 @@ html {
 .pokemon__types__li {
   margin: 10px;
   padding: 5px;
-  border: 1px solid rgb(86, 86, 140);
+  color: white;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
   border-radius: 8px;
 }
 
 .pokemon__img__container {
-  width: 150px;
-  height: 150px;
-  border: 1px solid red;
+  width: 225px;
+  height: 225px;
+  border-bottom: 3px solid $primary-color;
+  border-radius: 25px;
 }
 
 .pokemon__img {

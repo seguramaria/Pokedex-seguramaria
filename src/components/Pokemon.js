@@ -20,10 +20,15 @@ class Pokemon extends React.Component {
             alt={this.props.name}
           ></img>
         </div>
-        <div className="pokemon__description ">
-          <h2 className="pokemon__name"> {this.props.name}</h2>
-          <ul className="pokemon__types">{pokemonsTypes}</ul>
+        <div className="pokemon__description">
+          <h2 className="pokemon__name"> {this.props.name}</h2>{' '}
+          <img
+            className="pokeball"
+            src="https://i.ebayimg.com/images/g/CLAAAOxyRhBSq3b5/s-l300.jpg"
+            alt="Pokeball"
+          ></img>
         </div>
+        <ul className="pokemon__types">{pokemonsTypes}</ul>
       </article>
     );
   }
