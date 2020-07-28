@@ -8,9 +8,7 @@ html {
   font-family: $primary-font;
   font-weight: $regular-weight;
 }
-// .page {
 
-// }
 .title {
   text-align: center;
   color: $primary-color;
@@ -22,7 +20,6 @@ html {
   width: 100%;
   height: 100vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -39,20 +36,15 @@ html {
   align-items: center;
   margin: 20px;
   padding-bottom: 15px;
-  // background-image: url(https://i.ebayimg.com/images/g/CLAAAOxyRhBSq3b5/s-l300.jpg);
-  // background-size: cover;
+  background-color: $primary-color;
 }
 
-.pokeball {
-  width: 30px;
-  height: 30px;
-}
 .pokemon__description {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-weight: $bold-weight;
-  color: $primary-color;
+  color: $light-color;
   text-transform: uppercase;
 }
 .pokemon__types {
@@ -67,7 +59,7 @@ html {
   margin: 10px;
   padding: 5px;
   color: white;
-  background-color: $primary-color;
+  background-color: rgb(74, 24, 24);
   border: 1px solid $primary-color;
   border-radius: 8px;
 }
@@ -75,8 +67,10 @@ html {
 .pokemon__img__container {
   width: 225px;
   height: 225px;
-  border-bottom: 3px solid $primary-color;
-  border-radius: 25px;
+  border: 3px solid $dark-color;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image: url(https://i.ebayimg.com/images/g/CLAAAOxyRhBSq3b5/s-l300.jpg);
 }
 
 .pokemon__img {
