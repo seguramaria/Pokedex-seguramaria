@@ -1,9 +1,23 @@
 import React from 'react';
+import '../index.scss';
+import PokeList from './PokeList';
+import pokemonsFromApi from '../data/pokemons.json';
 
-// import './stylesheets/App.css';
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pokemons: pokemonsFromApi,
+    };
+  }
 
-function App() {
-  return <div className="App"></div>;
+  render() {
+    return (
+      <div>
+        <PokeList pokemons={this.state.pokemons} />
+      </div>
+    );
+  }
 }
 
 export default App;
