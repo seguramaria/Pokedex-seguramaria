@@ -2,8 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png" width="350"/>
 
-![](https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png)
-
 ### Desarrollo de una página web sencilla con React.
 
 La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante, como el
