@@ -17,9 +17,9 @@ Pasos realizados:
 
 Además, la página tiene un diseño responsive
 
-<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/16.png" width="200"/>
-<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/17.png" width="200"/>
-<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/18.png" width="150"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/13.png" width="200"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/14.png" width="200"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/15.png" width="150"/>
 
 Enlace a GitHub Pages para ver el resultado: http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/
 
