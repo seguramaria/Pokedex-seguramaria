@@ -1,6 +1,6 @@
 # Pokedex
 
-<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png" width="350"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png" width="200"/>
 
 ### Desarrollo de una página web sencilla con React.
 
