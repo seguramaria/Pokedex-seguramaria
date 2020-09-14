@@ -15,6 +15,12 @@ Pasos realizados:
 4. Crear dos componentes, PokeList y Pokemon, respectivamente para el listado y para la card de cada
    Pokemon.
 
-   Enlace a GitHub Pages para ver el resultado: http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/
+Además, la página tiene un diseño responsive
 
-   ¡Hazte con todos!
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/16.png" width="200"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/17.png" width="200"/>
+<img src="https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/18.png" width="150"/>
+
+Enlace a GitHub Pages para ver el resultado: http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/
+
+¡Hazte con todos!
